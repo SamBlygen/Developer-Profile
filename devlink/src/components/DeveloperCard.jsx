@@ -4,7 +4,7 @@ function DeveloperCard(props){
   return(
 <div>
   <img 
-  src= {props.avatar} alt={props.name + "s avatar"}
+  src= {props.avatar} alt={props.name + " 's avatar"}
   width="100"
   height="100"
   />
