@@ -8,3 +8,5 @@ function DeveloperCard(props){
 </div>
   );
 }
+
+export default DeveloperCard;
