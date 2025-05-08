@@ -1,8 +1,12 @@
 import React from 'react';
+import Navbar from '../Navbar';
 
 const Home = () => {
   return (
+   <>
+<Navbar/>
     <section className="flex flex-col items-center justify-center h-screen text-center bg-gray-100 px-4">
+       
       <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
         Welcome to DevLink
       </h1>
@@ -10,6 +14,7 @@ const Home = () => {
         Get Started
       </button>
     </section>
+    </>
   );
 };
 
