@@ -8,7 +8,7 @@ const Navbar = () => {
       <ul className="flex space-x-6 text-gray-700 font-medium">
         <li>
           <Link to="/developers" className="hover:text-indigo-600">
-            Contact
+           Our Developers
           </Link>
         </li>
       </ul>
