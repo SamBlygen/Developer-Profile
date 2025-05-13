@@ -1,0 +1,39 @@
+.card{
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,1);
+  background-color: #fff;
+  
+}
+
+.card img{
+  border-radius: 50px;
+  margin-bottom: 12px;
+}
+
+.card h2{
+margin: 8px 0;
+font-size: 1.2rem;
+color: #333
+}
+
+.card p{
+  margin: 4px 0;
+  color: #555
+}
+
+.card a{
+  display: inline-block;
+  margin-top: 10px;
+  color: 007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover{
+  text-decoration: underline;
+}
